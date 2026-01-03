@@ -2,11 +2,11 @@
 A ZB variation with ChucnySlot (EOCPLS) -> 2GLL
 <strong>Method:</strong><br>
 <h3>Steps:</h3><br>
-Cross                                                             1
+1 Cross                                                             
 <br>
-F2L -> Last Slot with ChucnySlot (EOCP while inserting last slot) 2
+2 F2L -> Last Slot with ChucnySlot (EOCP while inserting last slot) 
 <br>
-ZBLL (2GLL subset)                                                3
+3 ZBLL (2GLL subset)                                                
 <br>
 <strong>How it works</strong><br>
 First you solve cross normally like CFOP, then do F2L but you insert the slot with one of 48 ChucnySlot algorithms. This solves EO <strong>and
