@@ -18,5 +18,5 @@ Developers of this method <strong>Chucny, Liam Highduck</strong> (ChucnySlot pro
 Thank you to all of the cubing community for supporting me!
 <br>
 Idea:  L' R' F' L' U RW' U RW U2 R U' R' U2 R' U' R U2 L' U L U L' U L U' L' U L L' U2 L B' U' B2' L' B L U R U2 R' F' U' F U' -> ChucnySlot -> ZBLL<br>
-Try L' R' F' L' U RW' U RW U2 R U' R' U2 R' U' R U2 L' U L U L' U L U' L' U L L' U2 L B' U' B2' L' B L U R U2 R' F' U' F U' backwards and see if you can find the right algs!
+Try L' R' F' L' U RW' U RW U2 R U' R' U2 R' U' R U2 L' U L U L' U L U' L' U L L' U2 L B' U' B2' L' B L U R U2 R' F' U' F U' backwards and see if you can find the right algs!<br>
 <strong>Copyright (C) Chucny 2025</strong>
