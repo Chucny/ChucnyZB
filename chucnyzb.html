@@ -1,0 +1,35 @@
+'''ChucnyZB''' is a variation of the ZB method (Zborowski-Bruchem method) that incorporates a specialized slotting technique called '''ChucnySlot''' and a subset of [[ZBLL]] algorithms known as [[2GLL]]. It was developed to streamline the slot insertion/solving and last layer for improved efficiency.
+
+=== Overview ===
+ChucnyZB combines classic [[CFOP]] solving steps with targeted enhancements:
+
+# Solve the Cross.
+# F2L → insert the last slot using '''ChucnySlot''', which orients edges and permutes corners while inserting the last slot. '''OR''' solve slot by inserting the pieces to the slot (no matter orientation) and then solve them '''AND''' permutate corners and orientate edges (83 algs)
+# Finish the last layer using a ZBLL subset called '''2GLL''' (2 Generator Last Layer) to complete permutation of the last layer in fewer moves.
+* Average moves: '''47'''
+* Number of algorithms: '''103''' + (optional '''47''')
+* ChucnySlot algorithms (pair up): '''48'''
+* Other ChucnySlot algorithms: '''47'''
+=== Steps ===
+#  '''Cross''' – Make a cross
+#  '''F2L''' – Solve F2L + ChucnySlot
+#  '''ZBLL''' – Use 2GLL algorithms to solve the last layer, mostly using 2-gen algorithms
+Note that the alternative method is NOT recommended since it's not finished yet.
+=== How It Works ===
+The key idea behind '''ChucnyZB''' is to solve the last slot by inserting with one of 48 '''ChucnySlot''' algorithms, permuting the corners and orienting the edges while solving/inserting last slot on the right side to '''force 2GLL'''. So basically, you sacrifice speed for efficiency.
+Other variation:
+Insert two F2L pieces to the slot and solve [[EO]] and [[CP]] while solving the pieces. If free slot, use ChucnySlot (or [[VLS]] if easy case).
+
+=== Developers / Contributors ===
+* '''Chucny''' – creator of the method and ChucnySlot algorithms  
+* Thanks to Twisted101 for inventing ChucnySlot algorithms
+* Thanks to '''Liam Highduck''' for helping out with ChucnySlot algorithms 
+* Thanks to the cubing community for support and algorithm resources
+* Thanks to GPL for making more efficcient ChucnySlot algorithms
+
+=== Learning Resources ===
+
+* [https://docs.google.com/spreadsheets/d/1oQTY1CR4-jhmFVepsMA4U0Y9wGMAo7VW/edit?gid=192434591#gid=192434591 ChucnySlot algorithm sheet 7.50 STM] 
+* [https://docs.google.com/spreadsheets/d/16sIudzAovB4S5rcz4I7TX5y80iwwDtRkuNpeaR2mBjc/edit?usp=sharing Optimal Chucnyslot algs developed by GPL 8.18 STMa]
+* [https://www.cuberoot.me/2gll 2GLL algorithm sheet]
+* [https://www.cubeskills.com/uploads/pdf/tutorials/f2l.pdf F2L algorithms]
